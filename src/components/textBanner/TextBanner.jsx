@@ -9,14 +9,14 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-  color: #128182;
+  color: ${(props) => props.theme.colors.primary};
 `;
 
 const Subtitle = styled.div`
   font-weight: bold;
   font-size: 50px;
   margin: 5px;
-  color: #2c729b;
+  color: ${(props) => props.theme.colors.secondary};
 `;
 
 const TextBanner = ({ title, subtitle }) => {
