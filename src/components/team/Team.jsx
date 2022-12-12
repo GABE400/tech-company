@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import ImageOne from '../../images/team/2.jpg';
-import ImageTwo from '../../images/team/3.jpg';
-import ImageThree from '../../images/team/5.png';
+//import ImageOne from '../../images/team/2.jpg';
+//import ImageTwo from '../../images/team/3.jpg';
+//import ImageThree from '../../images/team/5.png';
+import TeamImg from '../../images/team/user.png';
 import TextBanner from '../textBanner/TextBanner';
 
 const Container = styled.div`
@@ -59,23 +60,23 @@ const Team = () => {
       <TextBanner title={'We are a team'} subtitle={'Our Team'} />
       <Wrapper>
         <TeamCard>
-          <CardImage src={ImageOne} />
+          <CardImage src={TeamImg} />
           <TextWrapper>
-            <MemberName>Gabriel Chipaya</MemberName>
+            <MemberName>User Name</MemberName>
             <TeamPosition>Fullstack Developer</TeamPosition>
           </TextWrapper>
         </TeamCard>
         <TeamCard>
-          <CardImage src={ImageThree} />
+          <CardImage src={TeamImg} />
           <TextWrapper>
-            <MemberName>Tricia Funga</MemberName>
+            <MemberName>User Name</MemberName>
             <TeamPosition>UX/UI Designer</TeamPosition>
           </TextWrapper>
         </TeamCard>
         <TeamCard>
-          <CardImage src={ImageTwo} />
+          <CardImage src={TeamImg} />
           <TextWrapper>
-            <MemberName>JoJo Nasilele</MemberName>
+            <MemberName>User Name</MemberName>
             <TeamPosition>Designer</TeamPosition>
           </TextWrapper>
         </TeamCard>
