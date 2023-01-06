@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import LogoPNG from '../../images/Logo.png';
+import LogoPNG from '../../images/logo192.png';
 
 const Container = styled.div`
   position: fixed;
@@ -62,7 +62,7 @@ const Right = styled.div`
 `;
 
 const Logo = styled.img`
-  width: 150px;
+  width: 50px;
   cursor: pointer;
   font-size: 20px;
 `;
